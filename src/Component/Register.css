@@ -1,0 +1,75 @@
+#register, #login {
+    width: 80%;
+    border: 1px solid #d6d7da;
+    /* padding: 50px 450px 400px 450px; */
+    border-radius: 25px;
+    font-family: arial;
+    line-height: 16px;
+    color: #333333;
+    font-size: 14px;
+    background: #F5F5F5;
+    margin: 100px auto;
+  }
+  
+  .headingLarge{
+    text-align: center;
+    padding: 0px 20px 15px 0px;
+  }
+  
+  form label, form input {
+    display: inline;
+    width: 40%;
+    /* margin-bottom: 10px; */
+  }
+  
+  form input {
+    padding: 10px;
+    border: solid 1px #BDC7D8;
+    width:  50%;
+  }
+
+  #dd{
+    width:  50%;
+  }
+  
+  .button {
+    background-color: #00BFFF;
+    border-color: #3ac162;
+    font-weight: bold;
+    padding: 12px 15px;
+    color: #ffffff;
+    border-radius: 40px;
+    width: 40%;
+  }
+  
+  .errorMsg {
+    color: #cc0000;
+    margin-bottom: 12px;
+  }
+  
+  .sucessMsg {
+    color: #6B8E23;
+    margin-bottom: 10px;
+  }
+  
+  .anchor{
+    display: inline;
+  }
+  
+  .format-icon{
+    size: 10px;
+  }
+
+  .division{
+      width: 100%;
+  }
+
+  .rightDivision{
+      padding-right: 50px;
+      width:  50%;
+  }
+  
+  .leftDivision{
+    padding-left: 50px;
+    width:  50%;
+}
