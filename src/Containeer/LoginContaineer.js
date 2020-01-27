@@ -37,6 +37,7 @@ class LoginContaineer  extends Component {
                 .then(res => {
                     console.log(res);
                     console.log(res.data);
+                    localStorage.setItem('token',res.data.accessToken);
                     alert("User Logged in successfully.");
                     this.props.history.push("/Dashboard");
                   })

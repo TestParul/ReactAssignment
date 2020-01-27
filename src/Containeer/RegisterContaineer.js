@@ -20,6 +20,7 @@ class RegisterContaineer extends Component {
     handleChange = (e) => {
         let fields = this.state.fields;
         fields[e.target.name] = e.target.value;
+        if(fields["userRoll"])
         fields["userRoll"] = {rollId: e.target.value}
         this.setState({
           fields
@@ -42,8 +43,7 @@ class RegisterContaineer extends Component {
                          console.log(res);
                          console.log(res.data);
                          alert("User sign up successfully.");
-                         fields["userName"] = "";
-                         fields["password"] = "";
+                         this.props.history.push("/");
                        })
            } catch(e){
                console.log(e);
